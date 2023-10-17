@@ -1,6 +1,8 @@
 class TweetsController < ApplicationController
     def index
       @tweets = Tweet.all
+      #logger.debug("*******")
+      #logger.debug(@tweets.first.message)
     end
     def new
       @tweet = Tweet.new

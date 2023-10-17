@@ -1,0 +1,65 @@
+名前：egawatakahiro
+パスワード：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
+
+
+
+
+
+
+https://github.com/egawatakahiro/SWEXE-L3.git
+git push origin main
+
+
+
+
+
+…or create a new repository on the command line
+echo "# SWEXE-L3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/egawatakahiro/SWEXE-L3.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/egawatakahiro/SWEXE-L3.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+多分これ
+git remote add origin https://github.com/egawatakahiro/SWEXE-L3.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+【render データベース】
+・L3
+データベース名：test_render_h3kh
+ユーザーネーム：test_render_h3kh_user
+パスワード：q4lERHM71d6rqRGSR1CYxmCzIqdXUaBi
+インターナルデータベースURL：postgres://test_render_h3kh_user:q4lERHM71d6rqRGSR1CYxmCzIqdXUaBi@dpg-ckeh4udtj22c73ed1qng-a/test_render_h3kh
+
+
+
+
+
+
+
+
+
+【config/database.ymlの編集後】
+production:
+  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  #database: db/production.sqlite3

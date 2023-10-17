@@ -13,3 +13,128 @@
  *= require_tree .
  *= require_self
  */
+
+/*
+body
+{
+    width: 700px;
+    margin: 0 auto;
+}
+
+#left
+{
+    float: left;
+    margin: 20px 20px;
+}
+
+#right
+{
+    float: right;
+    margin: 20px 20px;
+}
+
+#sidebar
+{
+    position: fixed;
+}
+*/
+
+#header
+{
+    width: 600px;
+    float: right;
+}
+
+#sidebar
+{
+    width: 210px;
+    float: left;
+}
+
+#content
+{
+    width: 600px;
+    float: right;
+}
+
+
+
+.sideb
+{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.sideb img
+{
+    width: 35px;
+    margin-right: 15px;
+    vertical-align: -10px;
+}
+
+.sideb:hover
+{
+    background-color: #ffefd5;
+    color: black;
+}
+
+
+/*
+.tweets
+{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background: #00bfff;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+}
+*/
+
+.tweets
+{
+    text-align: center;
+}
+
+.tweets a
+{
+    display: inline-block;
+    background: #00bfff; 
+    color: white; 
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.tweets a:hover
+{
+    background-color: #ffc0cb; 
+}
+
+
+.headerbutton
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tool
+{
+    text-decoration: none;
+    color: black;
+    transition: color 0s, border-bottom 0s;
+}
+
+.tool:hover
+{
+    color: #000;
+    border-bottom: 3px solid #00bfff;
+}
